@@ -1,6 +1,6 @@
 # TensorIOTensorFlow
 
-Unofficial TensorFlow build for iOS with support for inference, evaluation, and training. We use this cocoapod in [TensorIO](https://github.com/doc-ai/tensorio-ios).
+Unofficial TensorFlow cocoapod for iOS with support for inference, evaluation, and training. We use this pod in [TensorIO](https://github.com/doc-ai/tensorio-ios).
 
 Build: TensorFlow 1.13rc2.
 
@@ -33,6 +33,8 @@ pod 'TensorIOTensorFlow', podspec: 'https://raw.githubusercontent.com/doc-ai/ten
 pod 'TensorIOTensorFlow'
 ```
 -->
+
+## Saved Models
 
 To use this build with a saved model, add the files in the *saved_model* directory of this repository to your project. You may then use a saved model as follows:
 
