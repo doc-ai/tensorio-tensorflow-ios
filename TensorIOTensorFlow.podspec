@@ -21,8 +21,6 @@ Pod::Spec.new do |s|
   s.library = 'c++'
 
   s.frameworks = 'Foundation', 'Accelerate'
-
-  s.source_files = 'TensorIOTensorFlow/Classes/**/*'
   
   s.vendored_frameworks = [ 
     'Frameworks/tensorflow.framework'
