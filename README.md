@@ -1,15 +1,27 @@
 # TensorIOTensorFlow
 
-Unofficial TensorFlow build for iOS with support for inference, evaluation, and training. 
+Unofficial TensorFlow build for iOS with support for inference, evaluation, and training. We use this framework in [TensorIO](https://github.com/doc-ai/tensorio-ios).
+
+Build: TensorFlow 1.13rc2.
 
 ## Requirements
 
 - Xcode 10.0+
 - iOS 9.3+
 
+## Notes
+
+Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework). This framework vends all the headers required to use TensorFlow in your project as well as the following static libraries:
+
+- [tensorflow.a](https://storage.googleapis.com/tensorio-build/tensorflow)
+- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/libprotobuf)
+- [libnsync.a](https://storage.googleapis.com/tensorio-build/nsync)
+
+See additional instructions below to use this code with a saved model.
+
 ## Installation
 
-TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). During this development phase, install it via the podspect in this repository directly:
+TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). During this development phase, install it via the podspec in this repository directly:
 
 ```ruby
 pod 'TensorIOTensorFlow', podspec: 'https://raw.githubusercontent.com/doc-ai/tensorio-tensorflow-ios/master/TensorIOTensorFlow.podspec'
