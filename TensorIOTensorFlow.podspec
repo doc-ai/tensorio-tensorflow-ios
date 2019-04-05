@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.source           = { :http => 'https://storage.googleapis.com/tensorio-build/TensorIO-TensorFlow-1.13.tar.gz' }
 
   s.ios.deployment_target = '9.3'
-  s.static_framework = true
   s.library = 'c++'
 
   s.frameworks = 'Foundation', 'Accelerate'
