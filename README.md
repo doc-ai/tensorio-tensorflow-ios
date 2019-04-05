@@ -1,6 +1,6 @@
 # TensorIOTensorFlow
 
-Unofficial TensorFlow build for iOS with support for inference, evaluation, and training. We use this framework in [TensorIO](https://github.com/doc-ai/tensorio-ios).
+Unofficial TensorFlow build for iOS with support for inference, evaluation, and training. We use this cocoapod in [TensorIO](https://github.com/doc-ai/tensorio-ios).
 
 Build: TensorFlow 1.13rc2.
 
@@ -11,7 +11,7 @@ Build: TensorFlow 1.13rc2.
 
 ## Notes
 
-Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework). This framework vends all the headers required to use TensorFlow in your project as well as the following static libraries:
+Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework), this pod vends all the headers required to use TensorFlow in your project as well as the following static libraries:
 
 - [tensorflow.a](https://storage.googleapis.com/tensorio-build/tensorflow)
 - [libprotobuf.a](https://storage.googleapis.com/tensorio-build/libprotobuf)
@@ -61,6 +61,10 @@ void load_saved_model(std::string model_dir) {
 	// run the session
 }
 ```
+
+## Build
+
+Build this pod from scratch with the *build.sh* script in this repository.
 
 ## Author
 
