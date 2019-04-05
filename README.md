@@ -9,16 +9,6 @@ Build: TensorFlow 1.13rc2.
 - Xcode 10.0+
 - iOS 9.3+
 
-## Notes
-
-Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework), this pod vends all the headers required to use TensorFlow in your project as well as the following static libraries:
-
-- [tensorflow.a](https://storage.googleapis.com/tensorio-build/tensorflow)
-- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/libprotobuf)
-- [libnsync.a](https://storage.googleapis.com/tensorio-build/nsync)
-
-See additional instructions below to use this code with a saved model.
-
 ## Installation
 
 TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). During this development phase, install it via the podspec in this repository directly:
@@ -33,6 +23,16 @@ pod 'TensorIOTensorFlow', podspec: 'https://raw.githubusercontent.com/doc-ai/ten
 pod 'TensorIOTensorFlow'
 ```
 -->
+
+## Notes
+
+Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework), this pod vends all the headers required to use TensorFlow in your project as well as the following static libraries:
+
+- [tensorflow.a](https://storage.googleapis.com/tensorio-build/tensorflow)
+- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/libprotobuf)
+- [libnsync.a](https://storage.googleapis.com/tensorio-build/nsync)
+
+See additional instructions below to use this code with a saved model.
 
 ## Saved Models
 
