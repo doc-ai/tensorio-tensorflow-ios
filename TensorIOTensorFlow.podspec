@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TensorIOTensorFlow'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'The TensorFlow (unofficial) build used by TensorIO for iOS.'
   s.description      = 'An unofficial build of TensorFlow for iOS used by TensorIO, supporting inference, evaluation, and training.'
   s.homepage         = 'https://github.com/doc-ai/tensorio-tensorflow-ios'
