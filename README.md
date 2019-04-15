@@ -11,18 +11,11 @@ Build: TensorFlow 1.13rc2.
 
 ## Installation
 
-TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). During this development phase, install it via the podspec in this repository directly:
-
-```ruby
-pod 'TensorIOTensorFlow', podspec: 'https://raw.githubusercontent.com/doc-ai/tensorio-tensorflow-ios/master/TensorIOTensorFlow.podspec'
-```
-
-<!--To install it, simply add the following line to your Podfile:
+TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'TensorIOTensorFlow'
 ```
--->
 
 ## Notes
 
