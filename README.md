@@ -57,6 +57,8 @@ void load_saved_model(std::string model_dir) {
 }
 ```
 
+There is an [open issue](https://github.com/doc-ai/tensorflow-ios-framework/issues/3) at the [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework) to include these files in the TensorFlow build.
+
 ## Build
 
 Build this pod from scratch with the *build.sh* script in this repository.
