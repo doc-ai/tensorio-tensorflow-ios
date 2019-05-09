@@ -17,6 +17,18 @@ TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). To i
 pod 'TensorIOTensorFlow'
 ```
 
+<span stype="color:red">**NOTE (VERSION 0.2.0)**</span>
+
+Version 0.2.0 of the pod is not currently available via Cocoapods directly due to an error validating pods with files larger than 2GB. Instead you'll need to install a previous version of the pod and swap out the tensorflow static library.
+
+Install a previous version of the pod with:
+
+```ruby
+pod 'TensorIOTensorFlow', '~> 0.1.1'
+```
+
+Download the [v0.2.0 packaged source](https://storage.cloud.google.com/tensorio-build/TensorIO-TensorFlow-1.13_0.2.0.tar.gz), unzip it, and find the ./Frameworks/tensorflow.framework/tensorflow file in that directory. In your project's Pods directory, replace ./TensorIOTensorFlow/Frameworks/tensorflow.framework/tensorflow with that file.
+
 ## Notes
 
 Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework), this pod vends all the headers required to use TensorFlow in your project as well as the following static libraries:
