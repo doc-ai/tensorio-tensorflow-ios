@@ -27,7 +27,7 @@ Install a previous version of the pod with:
 pod 'TensorIOTensorFlow', '~> 0.1.1'
 ```
 
-Download the [v0.2.0 packaged source](https://storage.cloud.google.com/tensorio-build/TensorIO-TensorFlow-1.13_0.2.0.tar.gz), unzip it, and find the ./Frameworks/tensorflow.framework/tensorflow file in that directory. In your project's Pods directory, replace ./TensorIOTensorFlow/Frameworks/tensorflow.framework/tensorflow with that file.
+Download the [v0.2.0 packaged source](https://storage.googleapis.com/tensorio-build/TensorIO-TensorFlow-1.13_0.2.0.tar.gz), unzip it, and find the ./Frameworks/tensorflow.framework/tensorflow file in that directory. In your project's Pods directory, replace ./TensorIOTensorFlow/Frameworks/tensorflow.framework/tensorflow with that file.
 
 ## Notes
 
