@@ -8,6 +8,14 @@
 
 TENSORIO_BUILD_URL=https://storage.googleapis.com/tensorio-build
 
+
+# ordered newest to oldest
+# library is stored on goolge with name tensorflow_tf.version_our.version
+
+TENSORFLOW_1_13_0=tensorflow_1.13_4     # begin new version scheme, identifical to 0.3
+TENSORFLOW_0_3=tensorflow_0.3.0         # last 0.x version
+
+
 LIB_TENSORFLOW_URL=$TENSORIO_BUILD_URL/tensorflow
 LIB_PROTOBUF_URL=$TENSORIO_BUILD_URL/libprotobuf
 LIB_NSYNC_URL=$TENSORIO_BUILD_URL/nsync
