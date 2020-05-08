@@ -2,7 +2,7 @@
 
 Unofficial TensorFlow cocoapod for iOS with support for inference, evaluation, and training. Pod targets simluator and arm64 devices only (iOS 12.0+) with full support for training MobileNetV2 models on device. We use this pod in [TensorIO](https://github.com/doc-ai/tensorio-ios).
 
-- Latest: v1.13.4
+- Latest: v1.13.5
 - TensorFlow Build: 1.13rc2.
 
 The major.minor version number of this pod tracks the major.minor version of the build of TensorFlow it includes. We reserve our patch numbers for our own changes to the build, which  normally involves whitelisting additinal ops to support new models.
