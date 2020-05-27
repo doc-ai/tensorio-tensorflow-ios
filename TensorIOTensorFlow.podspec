@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TensorIOTensorFlow'
-  s.version          = '1.15'
+  s.version          = '1.15.1'
   s.summary          = 'The TensorFlow (unofficial) build used by TensorIO for iOS.'
   s.description      = 'An unofficial build of TensorFlow for iOS used by TensorIO, supporting inference, evaluation, and training.'
   s.homepage         = 'https://github.com/doc-ai/tensorio-tensorflow-ios'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'doc.ai' => 'philip@doc.ai' }
-  s.source           = { :http => 'https://storage.googleapis.com/tensorio-build/r1.15/TensorIO-TensorFlow-1.15_0.tar.gz' }
+  s.source           = { :http => 'https://storage.googleapis.com/tensorio-build/r1.15/TensorIO-TensorFlow-1.15_1.tar.gz' }
 
   s.ios.deployment_target = '12.0'
   s.library = 'c++'
