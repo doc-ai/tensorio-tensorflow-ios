@@ -18,12 +18,17 @@ limitations under the License.
 #ifndef TENSORFLOW_CC_SAVED_MODEL_LOADER_H_
 #define TENSORFLOW_CC_SAVED_MODEL_LOADER_H_
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdocumentation"
+
 #include <string>
 #include <unordered_set>
 
 #include "tensorflow/core/lib/core/status.h"
 #include "tensorflow/core/protobuf/meta_graph.pb.h"
 #include "tensorflow/core/public/session.h"
+
+#pragma clang diagnostic pop
 
 namespace tensorflow {
 
