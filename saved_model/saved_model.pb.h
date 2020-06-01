@@ -4,9 +4,6 @@
 #ifndef GOOGLE_PROTOBUF_INCLUDED_tensorflow_2fcore_2fprotobuf_2fsaved_5fmodel_2eproto
 #define GOOGLE_PROTOBUF_INCLUDED_tensorflow_2fcore_2fprotobuf_2fsaved_5fmodel_2eproto
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdocumentation"
-
 #include <limits>
 #include <string>
 
@@ -38,9 +35,6 @@
 #include "tensorflow/core/protobuf/meta_graph.pb.h"
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
-
-#pragma clang diagnostic pop
-
 #define PROTOBUF_INTERNAL_EXPORT_tensorflow_2fcore_2fprotobuf_2fsaved_5fmodel_2eproto
 PROTOBUF_NAMESPACE_OPEN
 namespace internal {
