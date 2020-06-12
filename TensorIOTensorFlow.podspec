@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TensorIOTensorFlow'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.summary          = 'The TensorFlow (unofficial) build used by TensorIO for iOS.'
   s.description      = 'An unofficial build of TensorFlow for iOS used by TensorIO, supporting inference, evaluation, and training.'
   s.homepage         = 'https://github.com/doc-ai/tensorio-tensorflow-ios'
@@ -28,9 +28,4 @@ Pod::Spec.new do |s|
     'Libraries/libnsync.a',
     'Libraries/libprotobuf.a'
   ]
-
-  s.xcconfig = {
-    'HEADER_SEARCH_PATHS' => '"${SRCROOT}/Pods/TensorIOTensorFlow/Frameworks/tensorflow.framework/Headers"',
-    'OTHER_LDFLAGS' => '-force_load "${SRCROOT}/Pods/TensorIOTensorFlow/Frameworks/tensorflow.framework/tensorflow" "-L ${SRCROOT}/Pods/TensorIOTensorFlow/Frameworks/tensorflow.framework"'
-  }
 end
