@@ -28,9 +28,4 @@ Pod::Spec.new do |s|
     'Libraries/libnsync.a',
     'Libraries/libprotobuf.a'
   ]
-
-  s.xcconfig = {
-    'HEADER_SEARCH_PATHS' => '"${SRCROOT}/Pods/TensorIOTensorFlow/Frameworks/tensorflow.framework/Headers"',
-    'OTHER_LDFLAGS' => '-force_load "${SRCROOT}/Pods/TensorIOTensorFlow/Frameworks/tensorflow.framework/tensorflow" "-L ${SRCROOT}/Pods/TensorIOTensorFlow/Frameworks/tensorflow.framework"'
-  }
 end
