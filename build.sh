@@ -11,11 +11,12 @@ TENSORIO_BUILD_URL=https://storage.googleapis.com/tensorio-build/r1.15
 # ordered newest to oldest
 # library is stored on google with name tensorflow_tf.version_our.version
 
+TENSORFLOW_1_15_2=tensorflow_1.15_2     # fix on-device build
 TENSORFLOW_1_15_1=tensorflow_1.15_1     # adds _FusedMatMul op
 TENSORFLOW_1_15_0=tensorflow_1.15_0     # initial 1.15 build
 
 
-LIB_TENSORFLOW_URL=$TENSORIO_BUILD_URL/$TENSORFLOW_1_15_1
+LIB_TENSORFLOW_URL=$TENSORIO_BUILD_URL/$TENSORFLOW_1_15_2
 LIB_PROTOBUF_URL=$TENSORIO_BUILD_URL/libprotobuf
 LIB_NSYNC_URL=$TENSORIO_BUILD_URL/nsync
 
