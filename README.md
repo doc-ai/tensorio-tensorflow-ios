@@ -2,7 +2,7 @@
 
 Unofficial TensorFlow cocoapod for iOS with support for inference, evaluation, and training. Pod targets simluator and arm64 devices only (iOS 12.0+) with full support for training MobileNetV2 models on device. We use this pod in [TensorIO](https://github.com/doc-ai/tensorio-ios).
 
-- Latest: v2.0.4
+- Latest: v2.0.5
 - TensorFlow Build: r2.0, v2.0.2
 
 The major.minor version number of this pod tracks the major.minor version of the build of TensorFlow it includes. We reserve our patch numbers for our own changes to the build, which  normally involves whitelisting additinal ops to support new models.
@@ -24,9 +24,9 @@ pod 'TensorIOTensorFlow'
 
 Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework), this pod vends all the headers required to use TensorFlow in your project as well as the following static libraries:
 
-- [tensorflow.a](https://storage.googleapis.com/tensorio-build/r2.0/tensorflow)
-- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/r2.0/libprotobuf)
-- [libnsync.a](https://storage.googleapis.com/tensorio-build/r2.0/nsync)
+- [libtensorflow-core.a](https://storage.googleapis.com/tensorio-build/ios/release/2.0/xcodebuild/12B45b/tag/2.0.5/lib/libtensorflow-core.a)
+- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/ios/release/2.0/xcodebuild/12B45b/tag/2.0.5/lib/libprotobuf.a)
+- [nsync.a](https://storage.googleapis.com/tensorio-build/ios/release/2.0/xcodebuild/12B45b/tag/2.0.5/lib/nsync.a)
 
 For projects that use this pod be sure to add the following to your header search paths and linker flags:
 
