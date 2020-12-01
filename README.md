@@ -26,9 +26,9 @@ pod 'TensorIOTensorFlow'
 
 Based on doc.ai's [tensorflow-ios-framework](https://github.com/doc-ai/tensorflow-ios-framework), this pod vends all the headers required to use TensorFlow in your project as well as the following static libraries:
 
-- [tensorflow.a](https://storage.googleapis.com/tensorio-build/r1.15/tensorflow)
-- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/r1.15/libprotobuf)
-- [libnsync.a](https://storage.googleapis.com/tensorio-build/r1.15/nsync)
+- [libtensorflow-core.a](https://storage.googleapis.com/tensorio-build/ios/release/1.15/xcodebuild/11E708/tag/1.15.2/lib/libtensorflow-core.a)
+- [libprotobuf.a](https://storage.googleapis.com/tensorio-build/ios/release/1.15/xcodebuild/11E708/tag/1.15.2/lib/libprotobuf.a)
+- [nsync.a](https://storage.googleapis.com/tensorio-build/ios/release/1.15/xcodebuild/11E708/tag/1.15.2/lib/nsync.a)
 
 See additional instructions below to use this code with a saved model.
 
