@@ -6,21 +6,13 @@
 
 # Variables
 
-TENSORIO_BUILD_URL=https://storage.googleapis.com/tensorio-build/r1.13
+LIB_URL=https://storage.googleapis.com/tensorio-build/ios/release/1.13/xcodebuild/11E146/tag/1.13.6/lib
 
-# ordered newest to oldest
-# library is stored on google with name tensorflow_tf.version_our.version
+# Pod has been released as 1.13.7 which is identical to 1.13.6 but the source file has been moved
 
-TENSORFLOW_1_13_6=tensorflow_1.13_6     # no changes, moved to r1.13 subdirectory
-TENSORFLOW_1_13_5=tensorflow_1.13_5     # whitelists ops to support models built in TF 2.0
-TENSORFLOW_1_13_4=tensorflow_1.13_4     # identical to 1.13_0, and identical to 0.3
-TENSORFLOW_1_13_0=tensorflow_1.13_4     # begin new version scheme, identical to 0.3
-TENSORFLOW_0_3=tensorflow_0.3.0         # last 0.x version
-
-
-LIB_TENSORFLOW_URL=$TENSORIO_BUILD_URL/$TENSORFLOW_1_13_6
-LIB_PROTOBUF_URL=$TENSORIO_BUILD_URL/libprotobuf
-LIB_NSYNC_URL=$TENSORIO_BUILD_URL/nsync
+LIB_TENSORFLOW_URL=$LIB_URL/libtensorflow-core.a    # -> tensorflow
+LIB_PROTOBUF_URL=$LIB_URL/libprotobuf.a             # -> libprotobuf.a
+LIB_NSYNC_URL=$LIB_URL/nsync.a                      # -> libnsync.a
 
 TENSORFLOW_IOS_FRAMEWORK_URL=git@github.com:doc-ai/tensorflow-ios-framework.git
 
