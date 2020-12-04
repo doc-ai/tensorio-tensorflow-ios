@@ -20,7 +20,7 @@ TensorIOTensorFlow is available through [CocoaPods](https://cocoapods.org). To i
 pod 'TensorIOTensorFlow'
 ```
 
-As of v2.0.6 the pod vends only x86_64 and arm64 builds of tensorflow. You may need to add `arm4` to your application's *Required device capabilities* in the *Target > Info > Custom iOS Target Properties* tab of your project. You may also need to update the *Build Settings > Architectures* for the project for *Debug* to `x86_64` and for *Release* to `arm64`.
+As of v2.0.6 the pod vends only x86_64 and arm64 builds of tensorflow. You may need to add `arm4` to your application's *Required device capabilities* in the *Target > Info > Custom iOS Target Properties* tab of your project. You may also need to update the *Build Settings > Architectures* for the project to `arm64`.
 
 ## Notes
 
